@@ -14,8 +14,11 @@
 
       <q-tabs class="rutas">
         <q-route-tab to="/" label="bienvenida" />
-        <q-route-tab to="/compras" label="Compras" />
-        <q-route-tab to="/productos" label="Productos" />
+        <q-route-tab to="/servicios" label="Servicios" />
+        <q-route-tab to="/habitaciones" label="Habitaciones" />
+        <q-route-tab to="/deportes" label="Deportes Extremos" />
+        <q-route-tab to="/contacto" label="Contacto" />
+
       </q-tabs>
     </q-header>
 
@@ -53,7 +56,7 @@ export default {
 </script>
 <style>
 .bg-primary{
-  background-color: rgba(253, 253, 253, 0.462) !important;
+  background-color: rgba(91, 90, 90, 0.462) !important;
 }
 .rutas{
   color: goldenrod;
